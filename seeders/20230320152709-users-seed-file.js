@@ -14,11 +14,11 @@ module.exports = {
             password: await bcrypt.hash('12345678', 10),
             account: 'root',
             avatar: `https://picsum.photos/id/${Math.floor(
-              Math.random() * 300
+              Math.random() * 1080
             )}/320/240`,
             introduction: faker.lorem.text().substring(0, 160),
             cover: `https://picsum.photos/id/${Math.floor(
-              Math.random() * 300
+              Math.random() * 1080
             )}/639/200`,
             role: 'admin',
             createdAt: new Date(),
@@ -30,11 +30,11 @@ module.exports = {
             password: await bcrypt.hash('12345678', 10),
             account: 'user1',
             avatar: `https://picsum.photos/id/${Math.floor(
-              Math.random() * 300
+              Math.random() * 1080
             )}/320/240`,
             introduction: faker.lorem.text().substring(0, 160),
             cover: `https://picsum.photos/id/${Math.floor(
-              Math.random() * 300
+              Math.random() * 1080
             )}/639/200`,
             role: 'user',
             createdAt: new Date(),
@@ -51,11 +51,11 @@ module.exports = {
           password: bcrypt.hashSync('12345678', 10),
           account: faker.name.findName(),
           avatar: `https://picsum.photos/id/${Math.floor(
-            Math.random() * 300
+            Math.random() * 1080
           )}/320/240`,
           introduction: faker.lorem.text().substring(0, 160),
           cover: `https://picsum.photos/id/${Math.floor(
-            Math.random() * 300
+            Math.random() * 1080
           )}/639/200`,
           createdAt: new Date(),
           updatedAt: new Date()
