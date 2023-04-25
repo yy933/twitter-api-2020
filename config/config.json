@@ -15,7 +15,12 @@
     "logging": false
   },
   "production": {
-    "use_env_variable": "CLEARDB_DATABASE_URL"
+    "username": "SimpleTwitter_saidmakebe",
+    "password": "bd61d0edb8469d0a932a47ca8faea0bc79532a81",
+    "database": "SimpleTwitter_saidmakebe",
+    "host": "52s.h.filess.io",
+    "dialect": "mysql",
+    "logging": false
   },
   "travis": {
     "username": "travis",
