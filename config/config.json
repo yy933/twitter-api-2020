@@ -19,6 +19,7 @@
     "password": "bd61d0edb8469d0a932a47ca8faea0bc79532a81",
     "database": "SimpleTwitter_saidmakebe",
     "host": "52s.h.filess.io",
+    "port":"3307",
     "dialect": "mysql",
     "logging": false
   },
