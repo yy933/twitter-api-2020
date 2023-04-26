@@ -15,10 +15,10 @@
     "logging": false
   },
   "production": {
-    "user": "SimpleTwitter_saidmakebe",
-    "password": "bd61d0edb8469d0a932a47ca8faea0bc79532a81",
-    "database": "SimpleTwitter_saidmakebe",
-    "host": "52s.h.filess.io",
+    "user": "Simpletwitter_wantbarnon",
+    "password": "19feb1e443ef0fddd5150f25029996fde54057e1",
+    "database": "Simpletwitter_wantbarnon",
+    "host": "mv6.h.filess.io",
     "port":"3307",
     "dialect": "mysql",
     "logging": false
