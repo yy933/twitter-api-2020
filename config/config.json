@@ -15,11 +15,7 @@
     "logging": false
   },
   "production": {
-    "user": "Simpletwitter_wantbarnon",
-    "password": "19feb1e443ef0fddd5150f25029996fde54057e1",
-    "database": "Simpletwitter_wantbarnon",
-    "host": "mv6.h.filess.io",
-    "port":"3307",
+    "use_env_variable": "DB_URL",
     "dialect": "mysql",
     "logging": false
   },
