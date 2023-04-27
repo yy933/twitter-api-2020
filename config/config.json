@@ -15,7 +15,7 @@
     "logging": false
   },
   "production": {
-    "use_env_variable": "mysql://root:2ip4QlubPVP50f3xQ6W0@containers-us-west-23.railway.app:7571/railway",
+    "use_env_variable": "DB_URL",
     "dialect": "mysql",
     "logging": false
   },
